@@ -1,0 +1,28 @@
+#expression{
+    color: orange;
+    text-align: right;
+    margin-right: 3px;
+}
+.calculator{
+    border: solid 1px orange;
+    width: 320px;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+table,tr,td{
+    padding: 8px;
+    margin-left: 10px;
+}
+.enter{
+    height: 200px;
+}
+.buttons button{
+    width: 60px;
+    height: 50px;
+}
+.screen{
+    height: 100px;
+    border: solid 1px orange;
+    width: 300px;
+    margin: 10px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>CALCULATOR</title>
+</head>
+<body>
+    <div class="container text-center">
+        <div class="calculator">
+            <div class="screen">
+                <h2 id="expression">0</h2>
+            </div>
+            <div>
+                <table class="buttons">
+                    <tr>
+                        <td><button class="btn btn-default type">+</button></td>
+                        <td><button class="btn btn-default type">-</button></td>
+                        <td><button class="btn btn-default type">*</button></td>
+                        <td><button class="btn btn-default type">/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-default type">7</button></td>
+                        <td><button class="btn btn-default type">8</button></td>
+                        <td><button class="btn btn-default type">9</button></td>
+                        <td rowspan="3"><button class="btn btn-default" style="height: 200px" id="result">=</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-default type">4</button></td>
+                        <td><button class="btn btn-default type">5</button></td>
+                        <td><button class="btn btn-default type">6</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-default type">1</button></td>
+                        <td><button class="btn btn-default type">2</button></td>
+                        <td><button class="btn btn-default type">3</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-default type">0</button></td>
+                        <td><button class="btn btn-default type">.</button></td>
+                        <td><button class="btn btn-default" id="backspace">C</button></td>
+                        <td><button class="btn btn-default" id="allClear">AC</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

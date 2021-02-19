@@ -1,0 +1,22 @@
+.main{
+    padding-top: 240px;
+}
+body{
+    background-color: skyblue;
+}
+button{
+    color: white;
+}
+.reset{
+    background-color: grey;
+    color: white;
+}
+h2{
+    font-size: 60px;
+}
+h1{
+    font-size: 60px;
+}
+#counter{
+    color: white;
+}
